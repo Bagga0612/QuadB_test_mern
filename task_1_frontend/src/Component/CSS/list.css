@@ -1,0 +1,27 @@
+.list{
+    padding-top: 62px;
+    width: 1330px;
+    margin: 0px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card{
+    margin: 20px ;
+    transition: transform 0.2s;
+    cursor: pointer;
+    /* flex-wrap:wrap-reverse; */
+}
+
+.head{
+    text-align: center;
+    margin: 10px;
+    /* font-size: larger; */
+    font-weight: bold;
+}
+
+.productPic{
+    height: 300px;
+}
